@@ -12,6 +12,10 @@ body{
     top: 0;
     background-color: black;
 }
+.search-cont{
+    margin-top: 40px;
+    margin-left: 30px;
+}
 .container-nav-fixed li{
     list-style-type:none;
     padding: 15px;
@@ -167,4 +171,7 @@ input{
     text-align: center;
     background-color: white;
     padding:15px;
+}
+.inputs-cont{
+    margin-left: 30px;
 }
