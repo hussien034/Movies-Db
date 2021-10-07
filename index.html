@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Js Exam</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="description" content="js exam">
+        <meta name="keywords" content="js exam">
+        <meta name="author" content="bassem hussien">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container m-auto w-75">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" onkeydown="getMovies(this.value)" placeholder="get movies by words" class="w-100">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="search" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="container-nav-fixed">
+            <div class="container-links">
+                <div class="wow slideInLeft">
+                    <li><a href="#" onclick="Data1()" >Now playing</a></li>
+            <li><a href="#" onclick="Data2()">Popular</a></li>
+            <li><a href="#" onclick="Data3()">Top Rated</a></li>
+            <li><a href="#" onclick="Data4()">Trending</a></li>
+            <li><a href="#" onclick="Data5()">Upcoming</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+                    </div>
+            
+        </div>
+        <div class="container-socialIcons">
+            <i class="fab fa-facebook-f socialIcons"></i>
+            <i class="fab fa-twitter socialIcons"></i>
+            <i class="fas fa-globe socialIcons"></i>
+            <br>
+            <p>Copyright Â© 2019 All Rights<br> Reserved.</p>
+        </div>
+        </div>
+        <div class="nav-fixed text-center">
+            <img src="img/logo (1).png" class="w-50">
+            <br>
+            <button class="icon-center"><i class="fas fa-align-justify"></i></button>
+            <br>
+            <a href="#"><i class="fas fa-globe icon1-bottom"></i></a>
+            <br>
+            <a href="#"><i class="fas fa-share-alt icon2-bottom"></i></a>
+        </div>
+        <section id="home">
+            <div class="container w-75">
+                <div class="row g-3" id="cont">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container w-75">
+                <form>
+                <div class="row g-3 text-center">   
+                    <h3>ContacUs...</h3>
+                    <div class="col-md-6">
+                        <input id="nameInput" type="text" placeholder="Enter Your Name" class="w-100" required>
+                        <div id="alert-1">Your Name is not valid</div>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="emailInput" type="email" placeholder="Enter Your Email" class="w-100" required>
+                        <div id="alert-2">your email should contain a number and should be gmail or yahoo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="phoneInput"  placeholder="Enter Your Phone" class="w-100" required>
+                        <div id="alert-3">entre valid phone , contain 11 number</div>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="ageInput"  placeholder="Enter Your Age" class="w-100" required>
+                        <div id="alert-4">entre valid Age, you should have more than 9 years</div>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="passwordInput" type="password"  placeholder="Enter Your Password" class="w-100" required>
+                        <div id="alert-5">entre valid password *Minimum eight characters, and two number:*</div>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="repasswordInput" type="password"  placeholder="Enter RePassword" class="w-100" required>
+                        <div id="alert-6">entre valid Repassword</div>
+                    </div>
+                  </div>
+                  <button class="btn-1" id="submit" disabled>Submit</button>
+                </form>
+                </div> 
+        </section>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

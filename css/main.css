@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-nav-fixed{
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    left:-300;
+    top: 0;
+    background-color: black;
+}
+.container-nav-fixed li{
+    list-style-type:none;
+    padding: 15px;
+    margin-left: 5px;
+}
+.container-nav-fixed a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.container-nav-fixed a:hover {
+    color: red;
+}
+.container-socialIcons{
+    position: fixed;
+    font-size: 16px;
+    color: #999;
+    margin-left:10px;
+    bottom:100px;
+}
+.socialIcons{
+    padding:0px 5px;
+    color: white;
+}
+.nav-fixed img{
+    margin-top: 30px;
+}
+.nav-fixed{
+    width:60px;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    left:0px;
+    top: 0;
+    background-color:white;
+}
+button{
+    margin-left:-20px;
+    font-size: 25px;
+    border: none;
+    position: fixed;
+    top: 50%;
+    padding:5px;
+    background-color: transparent;
+}
+.icon1-bottom{
+    position: fixed;
+    margin-left:-10px;
+    font-size:18;
+    color: black;
+    bottom:60px;
+}
+.icon2-bottom{
+    position: fixed;
+    margin-left:-10px;
+    font-size:18px;
+    color: black;
+    bottom:20px;
+}
+.caption{
+    text-align: center;
+    position: relative !important;
+    overflow: hidden;
+    top:100px;
+    margin-left: 30px ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.layer-1{
+    overflow: hidden;
+    position: absolute;
+    color: black;
+    top:100%;
+    left:0;
+    right:0;
+    bottom:0; 
+    transition: all 1s;
+}
+.caption:hover .layer-1{
+    overflow: hidden;
+   top: 0;
+   background-color: white;
+   opacity: 0.7;
+}
+h1{
+    font-size:20px;
+}
+h2{
+    font-size: 18px;
+}
+#contact{
+    margin-top:100px;
+}
+input{
+    background-color: transparent;
+    padding:15px;
+    margin: 10px 0px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,.7); 
+    text-align: center;
+
+}
+.btn-1{
+    position: static;
+    color: red;
+    border-radius: 0px !important;
+    border: 1px solid red;
+    padding:5px !important;
+    margin-top:20px;
+    font-size:18px;
+    margin-left:5px;
+}
+#alert-1{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
+#alert-2{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
+#alert-3{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
+#alert-4{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
+#alert-5{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
+#alert-6{
+    display: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding:15px;
+}
